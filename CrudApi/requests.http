@@ -12,3 +12,7 @@ Content-Type: application/json
   "title": "My third blog",
   "content": "This is the content of the new blog post."
 }
+
+
+###
+Delete http://localhost:5208/blogs/1
