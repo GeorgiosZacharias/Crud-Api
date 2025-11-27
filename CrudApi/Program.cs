@@ -17,6 +17,10 @@ if (id < 0 || id >= blogs.Count) {
 return Results.Ok(blogs[id]);
 });
 
+app.MapPost("/blogs",(Blog blog) => {blogs.Add(blog);
+return Results.Created($"/blogs/{blogs.Count - 1}", blog);
+});
+
 app.Run();
 
 public class Blog

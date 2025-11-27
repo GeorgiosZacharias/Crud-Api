@@ -1,0 +1,14 @@
+Get http://localhost:5208/
+
+###
+GET http://localhost:5208/blogs
+###
+GET http://localhost:5208/blogs/1
+###
+POST http://localhost:5208/blogs
+Content-Type: application/json
+
+{
+  "title": "My third blog",
+  "content": "This is the content of the new blog post."
+}
