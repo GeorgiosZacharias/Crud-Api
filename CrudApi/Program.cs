@@ -37,6 +37,16 @@ app.MapDelete("/blogs/{id}", (int id) =>
     return Results.NoContent();
 });
 
+app.MapPut("/blogs/{id}", (int id, Blog updatedBlog) =>
+{
+    if (id < 0 || id >= blogs.Count)
+    {
+        return Results.NotFound();
+    }
+    blogs[id] = updatedBlog;
+    return Results.Ok(updatedBlog);
+});
+
 app.Run();
 
 public class Blog

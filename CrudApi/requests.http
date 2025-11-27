@@ -16,3 +16,12 @@ Content-Type: application/json
 
 ###
 Delete http://localhost:5208/blogs/1
+
+###
+Put http://localhost:5208/blogs/0
+Content-Type: application/json
+
+{
+  "title": "My edited blog",
+  "content": "This is the content of the edited blog post."
+}
