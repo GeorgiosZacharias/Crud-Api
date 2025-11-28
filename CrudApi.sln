@@ -5,6 +5,8 @@ VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CrudApi", "CrudApi\CrudApi.csproj", "{2F2A6998-64CC-46EA-9634-E79B972F2E2F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "middleware", "middleware\middleware.csproj", "{E4A59D91-5E25-4941-9A4A-CF550011AE01}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +20,9 @@ Global
 		{2F2A6998-64CC-46EA-9634-E79B972F2E2F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2F2A6998-64CC-46EA-9634-E79B972F2E2F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2F2A6998-64CC-46EA-9634-E79B972F2E2F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E4A59D91-5E25-4941-9A4A-CF550011AE01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E4A59D91-5E25-4941-9A4A-CF550011AE01}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E4A59D91-5E25-4941-9A4A-CF550011AE01}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E4A59D91-5E25-4941-9A4A-CF550011AE01}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
